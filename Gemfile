@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.3'
 
 # Backend tools
 gem 'aasm', '~> 5.0.8'
+gem 'sqlite3'
 gem 'active_storage_validations', '~> 0.8.9'
 gem 'administrate', '>= 0.12'
 gem 'administrate-field-active_storage'
@@ -28,7 +29,7 @@ gem 'rails-settings-cached', '~> 2.0'
 gem 'sidekiq'
 gem 'sprockets', '3.7.2'
 gem 'twilio-ruby', '~> 5.45.0'
-
+gem 'ruby-graphviz'
 # Frontend tools
 gem 'bootstrap', '~> 4.5.0'
 gem 'haml'
